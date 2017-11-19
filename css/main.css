@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.box-tabs {
+  overflow: auto;
+}
+
+.tab {
+  background-color: blue;
+  float: left;
+  margin-left: 5px;
+  height: 48px;
+  width: 100px;
+}
+
+.tab.active {
+  background-color: #fff;
+}
+
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
